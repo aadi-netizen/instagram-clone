@@ -1,0 +1,35 @@
+♦ Project Name: Instagram-clone
+♦ Project Description: 
+It is a capstone project which aims to create a full blown clone of Instagram social networking application using Full-stack (MERN) developmentskills.
+♦ Project structure: 
+The project is divided into two parts: 
+• Frontend (User-Interface using React)
+• Backend (A node-express server incorporating security, database(MongoDB) and APIs)
+-----------------------------------------------------------------------------------------------------------------------------------------
+♦♦♦ Frontend ♦♦♦
+
+
+♦ Tech-stack used:
+
+• ReactJS 
+• Bootstrap        (UI library)
+• react-router-DOM (For UI routing)
+• react-tostify    (For notifications)
+• axios            (For calling APIs)
+• font-awesome     (For icons)
+----------------------------------------
+♦♦♦ Objective : Ceating a User-interface using the tech-stack mentioned above which will help user to perform all social media app functionalities such as posting a tweet and user ragistration. The list of functionalities is written below.
+
+♦♦ The list of frontend side functionalities:
+• Login page 
+• Ragister page
+• Home page (Where user could see all the tweets)
+• Profile-details page
+• Post-details page
+
+♦ Login Page component : 
+• Contains 2 parts (a welcome-screen image and a login form ).  
+• Styled using bootstrap classes
+• structured in two one row a two columns using bootstrap grid and 
+• it responsive to different screen size
+
