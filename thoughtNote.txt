@@ -1,10 +1,18 @@
 ♦ Project Name: Instagram-clone
-♦ Project Description: 
+
+♦ Description: 
 It is a capstone project which aims to create a full blown clone of Instagram social networking application using Full-stack (MERN) developmentskills.
-♦ Project structure: 
+
+♦ structure: 
 The project is divided into two parts: 
 • Frontend (User-Interface using React)
 • Backend (A node-express server incorporating security, database(MongoDB) and APIs)
+
+♦ Features 
+• Smooth and seamless ReactJS single page application 
+• Mobile friendly  UI and responsive UI to all screens using bootstrap
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 ♦♦♦ Frontend ♦♦♦
 
@@ -18,9 +26,15 @@ The project is divided into two parts:
 • axios            (For calling APIs)
 • font-awesome     (For icons)
 ----------------------------------------
-♦♦♦ Objective : Ceating a User-interface using the tech-stack mentioned above which will help user to perform all social media app functionalities such as posting a tweet and user ragistration. The list of functionalities is written below.
+♦♦♦ Objective : Ceating a User-interface using the tech-stack mentioned above which will help user 
+to perform all social media app functionalities such as posting a tweet and user ragistration. 
+The list of functionalities is written below.
 
-♦♦ The list of frontend side functionalities:
+♦♦ The list of reusable common components:
+• Navabar (with toggler button)
+
+
+♦♦ The list of frontend pages:
 • Login page 
 • Ragister page
 • Home page (Where user could see all the tweets)
@@ -32,4 +46,10 @@ The project is divided into two parts:
 • Styled using bootstrap classes
 • structured in two one row a two columns using bootstrap grid and 
 • it responsive to different screen size
+
+♦ Sign Up page : The Sign up page is just as the Login page except the both the forms are having 
+their own relevent form feilds. 
+
+[Both the forms contains a React navition link to the other one implemented using "react-router-dom" npm library.] 
+ 
 
