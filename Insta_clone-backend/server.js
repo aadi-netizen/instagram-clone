@@ -20,6 +20,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/v1/user', require('./routes/user_route'));
 app.use('/api/v1/auth', require('./routes/auth_route'));
+app.use('/api/v1/post', require('./routes/posts_route'));
 
 
 

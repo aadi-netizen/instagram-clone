@@ -3,14 +3,7 @@ const userModel = require('../models/user_model');
 
 // get user by id 
 const getUserById = (req, res) => {
-    // try {
-    //     const id = req.params.id;
-    //     const user = await userModel.findById(id);
-    //     res.status(200).send(user);
-    // } catch (error) {
-    //     res.status(404).send({ msg: "user doesn't exist" });
-    // }
-
+    // user property of the request is coming from authenticate middleware 
     res.status(200).send(req.user);
 };
 
