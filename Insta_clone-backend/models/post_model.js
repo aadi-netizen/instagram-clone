@@ -16,11 +16,22 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    like: [{
+        type: ObjectId,
+        ref: "userModel"
+    }],
+    comment: [{
+        commentText: String,
+        commentedBy: {
+            type: ObjectId,
+            ref: "userModel"
+        }
+    }],
     author: {
         type: ObjectId,
-        ref: userModel
+        ref: "userModel"
     }
-},{ timestamps: true });
+}, { timestamps: true });
 
 const postModel = mongoose.model('postModel', postSchema);
 

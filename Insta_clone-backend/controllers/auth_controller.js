@@ -53,7 +53,7 @@ const Login = async (req, res) => {
             res.status(400).send(`wrong password. Please try again..`);
         }
 
-        // payload
+        // payload to encoded as token
         const payload = {
             _id: user._id,
             name: user.user_name,
